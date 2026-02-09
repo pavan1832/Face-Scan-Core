@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://play.google.com/store/apps/dev?id=7086930298279250852" target="_blank">
-    <img alt="" src="https://github-production-user-asset-6210df.s3.amazonaws.com/125717930/246971879-8ce757c3-90dc-438d-807f-3f3d29ddc064.png" width=500/>
-  </a>  
-</p>
+
 
 ### Our facial recognition algorithm is globally top-ranked by NIST in the FRVT 1:1 leaderboards. <span><img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" alt="badge" width="36" height="20"></span>  
 [Latest NIST FRVT evaluation report 2024-12-20](https://pages.nist.gov/frvt/html/frvt11.html)  
@@ -55,22 +51,6 @@ It includes capabilities for testing face recognition in `1:N matching` scenario
   <img src="https://github.com/user-attachments/assets/838768ac-48df-41e4-8020-0aafc2b3d70e" width=300/>
 </p>
 
-## SDK License
-
-This project uses `KBY-AI`'s `Face Recognition Server SDK`, which requires a license per machine.
-- To use the latest update, plesae download the project [here](https://drive.google.com/file/d/1d3lT-iQc-7EJUJ_U6WYl16Pz2C37yBtZ/view?usp=sharing)
-- To request the license, please provide us with the `machine code` obtained from the `getMachineCode` function.
-
-- Ensure you copy the `license.txt` file to the `bin/x64/Debug` folder, as shown in the image below:
-![image](https://github.com/user-attachments/assets/f3573d88-12c2-4d1f-8fcb-1d202be7e132)
-
-
-#### Please contact us:
-🧙`Email:` contact@kby-ai.com</br>
-🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
-🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
-🧙`Discord:` [KBY-AI](https://discord.gg/6wm383re2s)</br>
-🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
 ## About SDK
 
