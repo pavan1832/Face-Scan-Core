@@ -1,4 +1,4 @@
-import { pgTable, text, serial, jsonb } from "drizzle-orm/pg-core";
+import { pgTable, text, serial, jsonb, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
@@ -7,7 +7,7 @@ export const users = pgTable("users", {
   name: text("name").notNull(),
   // Storing the face descriptor (array of numbers) as JSON
   faceDescriptor: jsonb("face_descriptor").notNull(),
-  createdAt: text("created_at").default("NOW()"),
+  createdAt: timestamp("created_at").defaultNow(),
 });
 
 export const insertUserSchema = createInsertSchema(users).omit({ 

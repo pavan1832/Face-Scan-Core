@@ -96,7 +96,7 @@ export default function Database() {
                 </div>
                 <div className="flex justify-between text-xs font-mono text-muted-foreground border-b border-white/5 pb-2">
                   <span>DATE ADDED</span>
-                  <span>{user.createdAt ? format(new Date(user.createdAt), "yyyy-MM-dd") : "N/A"}</span>
+                  <span>{user.createdAt ? format(new Date(user.createdAt), "yyyy-MM-dd HH:mm") : "N/A"}</span>
                 </div>
                 <div className="flex justify-between text-xs font-mono text-muted-foreground">
                   <span>BIOMETRIC STATUS</span>
