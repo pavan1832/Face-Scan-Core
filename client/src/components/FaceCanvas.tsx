@@ -17,7 +17,10 @@ export function FaceCanvas({ videoRef, faces, matches }: FaceCanvasProps) {
     const canvas = canvasRef.current;
     
     // Match canvas size to video size
-    const displaySize = { width: video.videoWidth, height: video.videoHeight };
+    const displaySize = { width: video.videoWidth || 640, height: video.videoHeight || 480 };
+    
+    if (displaySize.width === 0 || displaySize.height === 0) return;
+
     faceapi.matchDimensions(canvas, displaySize);
 
     // Resize detections
